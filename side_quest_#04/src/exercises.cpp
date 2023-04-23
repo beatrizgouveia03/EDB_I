@@ -28,6 +28,21 @@ value_type *local_minimum_in_an_array(value_type *begin, value_type *end)
     return end;
 }
 
+bool find_a_duplicate(value_type *begin, value_type *end){
+    while(begin != end){
+        int idx = abs(*begin) - 1;
+
+        if(*(begin+idx) < 0){
+            return true;
+        }
+
+        *(begin+idx) = -*(begin+idx);
+        begin++;
+    }
+
+    return false;
+}
+
 std::pair<value_type, value_type> longest_row_of_zeros(value_type **matrix, int rows, int cols)
 {
     int row_with_most_zeros = -1;
