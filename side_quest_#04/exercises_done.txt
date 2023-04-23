@@ -1,9 +1,0 @@
-This is a list indicating the number of the exercises from 
-the Side Quest #04 that I have done in this project and the
-name of the function implemented for each question
-
-01 - local_minimum_in_an_array
-08 - find_a_duplicate
-11 - longest_row_of_zeros
-12 - sum_of_two
-14 - find_the_duplicate
