@@ -1,2 +1,2 @@
 # EDB_I
-Repositório dedicado a matéria de Estrutura de Dados Básicos I
+Repositório dedicado aos trabalhos da matéria de Estrutura de Dados Básicos I
